@@ -12,7 +12,6 @@
 		D5BE1E892C1B3BFD0014DD7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5BE1E882C1B3BFD0014DD7C /* Assets.xcassets */; };
 		D5BE1E8C2C1B3BFD0014DD7C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5BE1E8B2C1B3BFD0014DD7C /* Preview Assets.xcassets */; };
 		D5BE1E932C1B54650014DD7C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BE1E922C1B54650014DD7C /* User.swift */; };
-		D5BE1E952C1B56500014DD7C /* EditUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BE1E942C1B56500014DD7C /* EditUserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +21,6 @@
 		D5BE1E882C1B3BFD0014DD7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5BE1E8B2C1B3BFD0014DD7C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D5BE1E922C1B54650014DD7C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		D5BE1E942C1B56500014DD7C /* EditUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +55,6 @@
 			children = (
 				D5BE1E842C1B3BFB0014DD7C /* SwiftData_Technique_ProjectApp.swift */,
 				D5BE1E862C1B3BFB0014DD7C /* ContentView.swift */,
-				D5BE1E942C1B56500014DD7C /* EditUserView.swift */,
 				D5BE1E922C1B54650014DD7C /* User.swift */,
 				D5BE1E882C1B3BFD0014DD7C /* Assets.xcassets */,
 				D5BE1E8A2C1B3BFD0014DD7C /* Preview Content */,
@@ -144,7 +141,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5BE1E872C1B3BFB0014DD7C /* ContentView.swift in Sources */,
-				D5BE1E952C1B56500014DD7C /* EditUserView.swift in Sources */,
 				D5BE1E852C1B3BFB0014DD7C /* SwiftData_Technique_ProjectApp.swift in Sources */,
 				D5BE1E932C1B54650014DD7C /* User.swift in Sources */,
 			);
