@@ -12,6 +12,8 @@
 		D5BE1E892C1B3BFD0014DD7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5BE1E882C1B3BFD0014DD7C /* Assets.xcassets */; };
 		D5BE1E8C2C1B3BFD0014DD7C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5BE1E8B2C1B3BFD0014DD7C /* Preview Assets.xcassets */; };
 		D5BE1E932C1B54650014DD7C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BE1E922C1B54650014DD7C /* User.swift */; };
+		D5BE1E972C1B87360014DD7C /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BE1E962C1B87360014DD7C /* UsersView.swift */; };
+		D5BE1E992C1B9ACD0014DD7C /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BE1E982C1B9ACD0014DD7C /* Job.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,9 @@
 		D5BE1E882C1B3BFD0014DD7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5BE1E8B2C1B3BFD0014DD7C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D5BE1E922C1B54650014DD7C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D5BE1E962C1B87360014DD7C /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
+		D5BE1E982C1B9ACD0014DD7C /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
+		D5BE1E9A2C1C83080014DD7C /* SwiftData-Technique-Project-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SwiftData-Technique-Project-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +58,11 @@
 		D5BE1E832C1B3BFB0014DD7C /* SwiftData Technique Project */ = {
 			isa = PBXGroup;
 			children = (
+				D5BE1E9A2C1C83080014DD7C /* SwiftData-Technique-Project-Info.plist */,
 				D5BE1E842C1B3BFB0014DD7C /* SwiftData_Technique_ProjectApp.swift */,
 				D5BE1E862C1B3BFB0014DD7C /* ContentView.swift */,
+				D5BE1E962C1B87360014DD7C /* UsersView.swift */,
+				D5BE1E982C1B9ACD0014DD7C /* Job.swift */,
 				D5BE1E922C1B54650014DD7C /* User.swift */,
 				D5BE1E882C1B3BFD0014DD7C /* Assets.xcassets */,
 				D5BE1E8A2C1B3BFD0014DD7C /* Preview Content */,
@@ -143,6 +151,8 @@
 				D5BE1E872C1B3BFB0014DD7C /* ContentView.swift in Sources */,
 				D5BE1E852C1B3BFB0014DD7C /* SwiftData_Technique_ProjectApp.swift in Sources */,
 				D5BE1E932C1B54650014DD7C /* User.swift in Sources */,
+				D5BE1E972C1B87360014DD7C /* UsersView.swift in Sources */,
+				D5BE1E992C1B9ACD0014DD7C /* Job.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +289,7 @@
 				DEVELOPMENT_TEAM = ZJC8SV6Q33;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftData-Technique-Project-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -308,6 +319,7 @@
 				DEVELOPMENT_TEAM = ZJC8SV6Q33;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftData-Technique-Project-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
